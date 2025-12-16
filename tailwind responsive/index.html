@@ -26,22 +26,22 @@
     </aside>
 
     <main class="p-4 w-full" >
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div class="p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:shadow-xl transition">
-                <div class="text-sm font-semibold text-gray-500 dark:text-gray-400">Users</div>
-                <div class="mt-2 text-2xl font-bold text-gray-500 dark:text-gray-200">1,245</div>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 w-fit mx-auto">
+            <div class="p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:shadow-xl transition bg-gradient-to-br from-indigo-500 to-indigo-300">
+                <div class="text-sm font-semibold text-white dark:text-gray-800">Users</div>
+                <div class="mt-2 text-2xl font-bold text-white dark:text-gray-200">1,245</div>
             </div>
-            <div class="p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:shadow-xl transition">
-                <div class="text-sm font-semibold text-gray-500 dark:text-gray-400">Revenue</div>
-                <div class="mt-2 text-2xl font-bold text-gray-500 dark:text-gray-200">$12,430</div>
+            <div class="p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:shadow-xl transition bg-gradient-to-br from-red-500 to-red-300">
+                <div class="text-sm font-semibold text-white dark:text-gray-800">Revenue</div>
+                <div class="mt-2 text-2xl font-bold text-white dark:text-gray-200">$12,430</div>
             </div>
-            <div class="p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:shadow-xl transition">
-                <div class="text-sm font-semibold text-gray-500 dark:text-gray-400">Orders</div>
-                <div class="mt-2 text-2xl font-bold text-gray-500 dark:text-gray-200">320</div>
+            <div class="p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:shadow-xl transition bg-gradient-to-br from-yellow-500 to-yellow-300">
+                <div class="text-sm font-semibold text-white dark:text-gray-800">Orders</div>
+                <div class="mt-2 text-2xl font-bold text-white dark:text-gray-200">320</div>
             </div>
-            <div class="p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:shadow-xl transition">
-                <div class="text-sm font-semibold text-gray-500 dark:text-gray-400">Feedback</div>
-                <div class="mt-2 text-2xl font-bold text-gray-500 dark:text-gray-200">85</div>
+            <div class="p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg hover:shadow-xl transition bg-gradient-to-br from-green-500 to-green-300">
+                <div class="text-sm font-semibold text-white dark:text-gray-800">Feedback</div>
+                <div class="mt-2 text-2xl font-bold text-white dark:text-gray-200">85</div>
             </div>  
         </div>  
         
@@ -55,22 +55,22 @@
                         <th class="p-3 text-gray-700 dark:text-gray-300">Amount</th>
                     </tr>
                     <tbody>
-                        <tr class="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:bg-gray-700">
+                        <tr class="odd:bg-gray-50 even:bg-white border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:bg-gray-700 text-gray-500">
                             <td class="p-3">#001</td>
                             <td class="p-3">Pandian</td>
-                            <td class="p-3">Completed</td>
+                            <td class="p-3"><span class="px-2 py-1 text-xs font-semibold bg-green-100 text-green-700 rounded-full">Completed</span></td>
                             <td class="p-3">$120</td>
                         </tr>
-                        <tr class="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:bg-gray-700">
+                        <tr class="odd:bg-gray-50 even:bg-white border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:bg-gray-700 text-gray-500">
                             <td class="p-3">#002</td>
                             <td class="p-3">Karthik</td>
-                            <td class="p-3">Pending</td>
+                            <td class="p-3"><span class="px-2 py-1 text-xs font-semibold bg-yellow-100 text-yellow-700 rounded-full">Pending</span></td>
                             <td class="p-3">$90</td>
                         </tr>
-                        <tr class="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:bg-gray-700">
+                        <tr class="odd:bg-gray-50 even:bg-white border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:bg-gray-700 text-gray-500">
                             <td class="p-3">#003</td>
                             <td class="p-3">Dashwin</td>
-                            <td class="p-3">Processing</td>
+                            <td class="p-3"><span class="px-2 py-1 text-xs font-semibold bg-red-100 text-red-700 rounded-full">Processing</span></td>
                             <td class="p-3">$75</td>
                         </tr>
                     </tbody>
@@ -79,5 +79,14 @@
         </div>
     </main>
     </div>
+
+    <footer class="flex flex-col items-center md:flex-row justify-between p-4 bg-white dark:bg-gray-800 shadow-inner">
+        <div class="text-gray-600 dark:text-gray-300 text-sm">@2025 Dashboard. All Rights Reserved.</div>
+        <div class="flex space-x-4 mt-2">
+            <a href="" class="text-indigo-500">Privacy</a>
+            <a href="" class="text-indigo-500">Terms</a>
+            <a href="" class="text-indigo-500">Contact</a>
+        </div>
+    </footer>
 </body>
 </html>
